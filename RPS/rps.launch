@@ -24,14 +24,16 @@
     <node name='rps_offboard' pkg='clever' type='rps_offboard.py' output='screen'>
 	<param name='camera_angle' value='1.57' />
 	<param name='takeoff_time' value='1'/>
+	<param name='hold_yaw' value=''/>
+
 	<param name='thrust_0' value='0.445' />
 	<param name='thrust_P' value='0.052' />
 	<param name='thrust_D' value='0.55' />
 	<param name='thrust_I' value='0.15' />
 	<param name='pitch_0' value='-0.055' />
-	<param name='pitch_D' value='1.2' />
+	<param name='pitch_D' value='1.4' />
 	<param name='pitch_P' value='0.12' />
-	<param name='pitch_I' value='0.15' />
+	<param name='pitch_I' value='0.2' />
 	<param name='pitch_max' value='0.15' />
 	<param name='roll_0' value='0.06' />
 	<param name='roll_D' value='1.2' />
