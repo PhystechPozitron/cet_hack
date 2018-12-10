@@ -21,16 +21,22 @@ def rps_get_pose_msg(self,frame_id):
 		msg.pose.position.x = self.pose[0]
 		msg.pose.position.y = self.pose[1]
 		msg.pose.position.z = self.pose[2]
+
+		msg.pose.orientation.x = self.orient[0]
+		msg.pose.orientation.y = self.orient[1]
+		msg.pose.orientation.z = self.orient[2]
 		msg.pose.orientation.w = 1
 
 	return msg
+
 
 def rps_calculate_and_publish(self):
 
 	# calculate pose and velocity
 	if self.markers_detected > 0:
 		self.fail_cnt = 0
-		self.pose = - self.tvec
+		self.pose = -self.tvec
+		self.orient = self.rvec
 
 	else:
 		if not (self.fail_cnt is None):
@@ -70,7 +76,13 @@ def rps_detect(self,data):
 
 	self.calculate_and_publish()
 
-	# debug -> /RPS/debug
+	# debug
+	#if self.markers_detected > 0:
+		#print('number = {0}, x = {1:.3f}, y = {2:.3f}, z = {3:.3f}'.format(self.markers_detected, -self.tvec[0][0], -self.tvec[1][0], -self.tvec[2][0]))
+	#else:
+		#print('no pose')
+
+	# send img to /RPS/debug
 	if self.img_pub.get_num_connections() > 0:
 		self.img = cv2.aruco.drawDetectedMarkers(self.raw_img, corners, ids)
 		if self.markers_detected > 0:
@@ -169,6 +181,7 @@ class rps_class:
 		self.tvec = None
 		
 		self.pose = None
+		self.orient = None
 		self.fail_cnt = None
 
 		self.raw_img_sub = rospy.Subscriber('/main_camera/image_raw/throttled', Image, self.detect)

@@ -1,0 +1,36 @@
+<launch>
+    <arg name="fcu_conn" default="usb"/>
+    <arg name="fcu_ip" default="192.168.11.124"/>
+    <arg name="gcs_bridge" default="tcp"/>
+    <arg name="viz" default="false"/>
+    <arg name="web_video_server" default="true"/>
+    <arg name="rosbridge" default="false"/>
+    <arg name="main_camera" default="true"/>
+    <arg name="rps" default="true"/>
+
+    <!-- mavros -->
+    <include file="$(find clever)/launch/mavros.launch">
+        <arg name="fcu_conn" value="$(arg fcu_conn)"/>
+        <arg name="fcu_ip" value="$(arg fcu_ip)"/>
+        <arg name="gcs_bridge" value="$(arg gcs_bridge)"/>
+        <arg name="viz" value="$(arg viz)"/>
+    </include>
+
+    <!-- web video server -->
+    <node name="web_video_server" pkg="web_video_server" type="web_video_server" if="$(arg web_video_server)" required="false" respawn="true" respawn_delay="5"/>
+
+    <!-- main nodelet manager -->
+    <node pkg="nodelet" type="nodelet" name="nodelet_manager" args="manager" output="screen" clear_params="true">
+        <param name="num_worker_threads" value="2"/>
+    </node>
+
+    <!-- main camera -->
+    <include file="$(find clever)/launch/main_camera.launch" if="$(arg main_camera)"/>
+
+    <!-- relative positioning system -->
+    <include file="$(find clever)/launch/rps.launch" if="$(arg rps)"/>
+
+    <!-- rosbridge -->
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" if="$(arg rosbridge)"/>
+
+</launch>

@@ -1,0 +1,71 @@
+<launch>
+<!-- init RPS -->
+    <node name='rps_init' pkg='clever' type='rps_init.py' output='screen' >
+	<param name='auto_arm' value='' />
+	<param name='flight_time' value='30' />
+	<param name='pose_x' value='-1' />
+	<param name='pose_y' value='-0.1' />
+	<param name='pose_z' value='0.3' />
+	<param name='frame_id' value='fcu_horiz' />
+    </node>
+
+<!-- positioning system sends position of FCU to /RPS/pose  -->
+    <node name='rps_pose' pkg = 'clever' type = 'rps_pose' output='screen'>
+        
+	<param name='max_fail_cnt' value='5' />
+	<param name='use_led_marker' value='0' />
+
+        <!-- parameters of board --> 
+	<param name='first_marker' value='18' />
+	<param name='number_x' value='2' />
+	<param name='number_y' value='3' /> 
+	<param name='side' value='0.22' />	 
+        <param name='dist_x' value='0.43' />
+	<param name='dist_y' value='0.126' />
+
+    </node>
+
+<!-- offboard control system affords services to control FCU -->
+    <node name='rps_offboard' pkg='clever' type='rps_offboard.py' output='screen'>
+	
+	<!-- angle of camera and time of landing -->
+	<param name='camera_angle' value='1.57' />
+	<param name='landing_time' value='4' />
+
+	<!-- thrust parameters -->
+	<param name='thrust_0' value='0.36' />
+	<param name='thrust_min' value='0.25' />
+	<param name='thrust_max' value='0.45' />
+	<param name='thrust_compensation' value='0.1' />
+	
+	<!-- pitch parameters -->
+	<param name='pitch_0' value='-0.03' />	
+	<param name='pitch_max' value='0.3' />
+
+	<!-- roll parameters -->
+	<param name='roll_0' value='0.0' />
+	<param name='roll_max' value='0.3' />
+
+	<!-- filter parameters -->
+	<param name='filter_pose' value='120.0' />
+	<param name='filter_yaw' value='0.03' />
+
+	<!-- PID coefficients -->
+	<param name='Px' value='0.09' />
+	<param name='Py' value='0.1' />
+	<param name='Pz' value='0.08' />
+
+	<param name='Ix' value='0.01' />
+	<param name='Iy' value='0.01' />
+	<param name='Iz' value='0.01' />
+
+	<param name='Dx' value='0.07' />
+	<param name='Dy' value='0.08' />
+	<param name='Dz' value='0.065' />
+
+	<param name='I_yaw' value='0.4' />	
+    </node>
+
+</launch>
+
+	

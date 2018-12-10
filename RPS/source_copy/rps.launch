@@ -1,0 +1,53 @@
+<launch>
+<!-- init RPS -->
+    <node name='rps_init' pkg='clever' type='rps_init.py' output='screen' >
+	<param name='auto_arm' value='1' />
+	<param name='flight_time' value='30' />
+	<param name='pose_x' value='-0.8' />
+	<param name='pose_y' value='0' />
+	<param name='pose_z' value='0.2' />
+	<param name='frame_id' value='fcu_horiz' />
+    </node>
+
+<!-- positioning system sends position of FCU to /RPS/pose  -->
+    <node name='rps_pose' pkg = 'clever' type = 'rps_pose' output='screen'>
+	<param name='max_fail_cnt' value='5' />
+    <!-- parameters of board --> 
+	<param name='first_marker' value='0' />
+	<param name='number_x' value='1' />
+	<param name='number_y' value='1' /> 
+	<param name='side' value='0.22' />	 
+        <param name='dist_x' value='0' />
+	<param name='dist_y' value='0' />
+    </node>
+
+<!-- offboard control system affords services to control FCU -->
+    <node name='rps_offboard' pkg='clever' type='rps_offboard.py' output='screen'>
+	<param name='camera_angle' value='1.57' />
+	<param name='takeoff_time' value='0'/>
+	<param name='navigate_time' value='2'/>
+	<param name='landing_time' value='4' />
+
+	<param name='thrust_0' value='0.36' />
+	<param name='thrust_P' value='0.06' />
+	<param name='thrust_D' value='0.08' />
+	<param name='thrust_I' value='0.03' />
+	<param name='thrust_max' value='0.5' />
+	<param name='thrust_min' value='0.2' />
+	<param name='thrust_compensation' value='0.1' />
+	<param name='pitch_0' value='0.028' />
+	<param name='pitch_D' value='0.08' />
+	<param name='pitch_P' value='0.1' />
+	<param name='pitch_I' value='0.01' />
+	<param name='pitch_max' value='0.3' />
+	<param name='roll_0' value='-0.015' />
+	<param name='roll_D' value='0.08' />
+	<param name='roll_P' value='0.09' />
+	<param name='roll_I' value='0.0' />
+	<param name='roll_max' value='0.3' />
+	<param name='yaw_I' value='0.2' />	
+    </node>
+
+</launch>
+
+	

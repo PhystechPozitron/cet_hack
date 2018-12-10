@@ -8,7 +8,7 @@ from mavros_msgs.msg import RCIn, State
 from mavros_msgs.srv import SetMode
 from std_srvs.srv import Trigger
 from clever.srv import Navigate
-
+from tf.transformations import euler_from_quaternion
 
 armed = False
 switch = 0
@@ -16,13 +16,16 @@ switch = 0
 rospy.init_node('rps_init')
 
 auto_arm = bool(rospy.get_param('~auto_arm', ''))
-#offboard_mode = rospy.get_param('~offboard_mode')
 flight_time = float(rospy.get_param('~flight_time'))
+pose_x = float(rospy.get_param('~pose_x'))
+pose_y = float(rospy.get_param('~pose_y'))
+pose_z = float(rospy.get_param('~pose_z'))
+frame_id = rospy.get_param('~frame_id')
 
 def action():
 	global switch, armed
 
-	navigate(x=1, y=0, z=0, frame_id='fcu_horiz', auto_arm=auto_arm)
+	navigate(x=pose_x, y=pose_y, z=pose_z, frame_id=frame_id, auto_arm=auto_arm)
 
 	cnt = 0
 	while cnt < 10*flight_time:
@@ -70,8 +73,7 @@ def flight(param):
 def loop():
 	r = rospy.Rate(20)
 
-	while not rospy.is_shutdown():
-		
+	for i in range(60):
 		# publish dummy msg to init LPE
 		msg = PoseStamped()
 		msg.header.stamp = rospy.get_rostime()
@@ -79,6 +81,8 @@ def loop():
 		vision_pub.publish(msg)
 
 		r.sleep()
+
+	rospy.spin()
 
 navigate = rospy.ServiceProxy("navigate",Navigate)
 land = rospy.ServiceProxy("land",Trigger)

@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-20T09:45:16.270434Z</date>
+  <millis>1542707116270</millis>
+  <nanos>434000</nanos>
+  <sequence>4</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.558726Z</date>
+  <millis>1542707116558</millis>
+  <nanos>726000</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.560174Z</date>
+  <millis>1542707116560</millis>
+  <nanos>174000</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.638098Z</date>
+  <millis>1542707116638</millis>
+  <nanos>98000</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.639927Z</date>
+  <millis>1542707116639</millis>
+  <nanos>927000</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.640609Z</date>
+  <millis>1542707116640</millis>
+  <nanos>609000</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:16.641239Z</date>
+  <millis>1542707116641</millis>
+  <nanos>239000</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:17.036349Z</date>
+  <millis>1542707117036</millis>
+  <nanos>349000</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:17.076811Z</date>
+  <millis>1542707117076</millis>
+  <nanos>811000</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>found last saved serial port /dev/ttyUSB0</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:17.077968Z</date>
+  <millis>1542707117077</millis>
+  <nanos>968000</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:19.275901Z</date>
+  <millis>1542707119275</millis>
+  <nanos>901000</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Serial port /dev/ttyUSB0 save as default.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:19.276715Z</date>
+  <millis>1542707119276</millis>
+  <nanos>715000</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:19.277295Z</date>
+  <millis>1542707119277</millis>
+  <nanos>295000</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open port /dev/ttyUSB0, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:19.280823Z</date>
+  <millis>1542707119280</millis>
+  <nanos>823000</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open port /dev/ttyUSB0 - Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:19.666025Z</date>
+  <millis>1542707119666</millis>
+  <nanos>25000</nanos>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>25</thread>
+  <message>java.lang.NullPointerException</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:24.316073Z</date>
+  <millis>1542707124316</millis>
+  <nanos>73000</nanos>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open file strip.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:24.317757Z</date>
+  <millis>1542707124317</millis>
+  <nanos>757000</nanos>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File name: /home/artem/copter_show/screen_sub/strip.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:24.319566Z</date>
+  <millis>1542707124319</millis>
+  <nanos>566000</nanos>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to load file strip.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:24.414644Z</date>
+  <millis>1542707124414</millis>
+  <nanos>644000</nanos>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Loading strip.lua: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:24.415418Z</date>
+  <millis>1542707124415</millis>
+  <nanos>418000</nanos>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open "strip.lua": Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:30.544105Z</date>
+  <millis>1542707130544</millis>
+  <nanos>105000</nanos>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open file clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:30.544701Z</date>
+  <millis>1542707130544</millis>
+  <nanos>701000</nanos>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File name: /home/artem/copter_show/screen_sub/clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:30.545229Z</date>
+  <millis>1542707130545</millis>
+  <nanos>229000</nanos>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to load file clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:30.570565Z</date>
+  <millis>1542707130570</millis>
+  <nanos>565000</nanos>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Loading clear_screen.lua: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:30.572913Z</date>
+  <millis>1542707130572</millis>
+  <nanos>913000</nanos>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open "clear_screen.lua": Success.</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:39.556083Z</date>
+  <millis>1542707139556</millis>
+  <nanos>83000</nanos>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T09:45:55.516218Z</date>
+  <millis>1542707155516</millis>
+  <nanos>218000</nanos>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T09:53:28.148898Z</date>
+  <millis>1542707608148</millis>
+  <nanos>898000</nanos>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T09:54:55.516952Z</date>
+  <millis>1542707695516</millis>
+  <nanos>952000</nanos>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T09:57:22.772619Z</date>
+  <millis>1542707842772</millis>
+  <nanos>619000</nanos>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:06:33.541931Z</date>
+  <millis>1542708393541</millis>
+  <nanos>931000</nanos>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:07:19.061948Z</date>
+  <millis>1542708439061</millis>
+  <nanos>948000</nanos>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:26:28.951340Z</date>
+  <millis>1542709588951</millis>
+  <nanos>340000</nanos>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:28:04.680937Z</date>
+  <millis>1542709684680</millis>
+  <nanos>937000</nanos>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:05.163232Z</date>
+  <millis>1542709865163</millis>
+  <nanos>232000</nanos>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.439998Z</date>
+  <millis>1542709886439</millis>
+  <nanos>998000</nanos>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.441450Z</date>
+  <millis>1542709886441</millis>
+  <nanos>450000</nanos>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file clear_screen.lua ...</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.442867Z</date>
+  <millis>1542709886442</millis>
+  <nanos>867000</nanos>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file clear_screen.lua: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.659789Z</date>
+  <millis>1542709886659</millis>
+  <nanos>789000</nanos>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.661132Z</date>
+  <millis>1542709886661</millis>
+  <nanos>132000</nanos>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file clear_screen.lua ...</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.662250Z</date>
+  <millis>1542709886662</millis>
+  <nanos>250000</nanos>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file clear_screen.lua: Success.</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.708512Z</date>
+  <millis>1542709886708</millis>
+  <nanos>512000</nanos>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileSaveESP: Try to save file to ESP...</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.715430Z</date>
+  <millis>1542709886715</millis>
+  <nanos>430000</nanos>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.717136Z</date>
+  <millis>1542709886717</millis>
+  <nanos>136000</nanos>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileSaveESP: Starting...</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.737530Z</date>
+  <millis>1542709886737</millis>
+  <nanos>530000</nanos>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.738202Z</date>
+  <millis>1542709886738</millis>
+  <nanos>202000</nanos>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:file.remove("clear_screen.lua");&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.742412Z</date>
+  <millis>1542709886742</millis>
+  <nanos>412000</nanos>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:file.remove("clear_screen.lua");</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.745332Z</date>
+  <millis>1542709886745</millis>
+  <nanos>332000</nanos>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.751560Z</date>
+  <millis>1542709886751</millis>
+  <nanos>560000</nanos>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.754391Z</date>
+  <millis>1542709886754</millis>
+  <nanos>391000</nanos>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.755006Z</date>
+  <millis>1542709886755</millis>
+  <nanos>6000</nanos>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:file.open("clear_screen.lua","w+");&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.758553Z</date>
+  <millis>1542709886758</millis>
+  <nanos>553000</nanos>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:file.open("clear_screen.lua","w+</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.761693Z</date>
+  <millis>1542709886761</millis>
+  <nanos>693000</nanos>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:");&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.772619Z</date>
+  <millis>1542709886772</millis>
+  <nanos>619000</nanos>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>2</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.773498Z</date>
+  <millis>1542709886773</millis>
+  <nanos>498000</nanos>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w = file.writeline&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.848628Z</date>
+  <millis>1542709886848</millis>
+  <nanos>628000</nanos>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; w = file.writeline&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.852043Z</date>
+  <millis>1542709886852</millis>
+  <nanos>43000</nanos>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.861589Z</date>
+  <millis>1542709886861</millis>
+  <nanos>589000</nanos>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>3</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.862854Z</date>
+  <millis>1542709886862</millis>
+  <nanos>854000</nanos>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[do]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.870957Z</date>
+  <millis>1542709886870</millis>
+  <nanos>957000</nanos>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[do]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.875285Z</date>
+  <millis>1542709886875</millis>
+  <nanos>285000</nanos>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.885422Z</date>
+  <millis>1542709886885</millis>
+  <nanos>422000</nanos>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>4</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.886172Z</date>
+  <millis>1542709886886</millis>
+  <nanos>172000</nanos>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[ws2812.init()]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.891994Z</date>
+  <millis>1542709886891</millis>
+  <nanos>994000</nanos>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[ws2812.init()]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.895822Z</date>
+  <millis>1542709886895</millis>
+  <nanos>822000</nanos>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.903240Z</date>
+  <millis>1542709886903</millis>
+  <nanos>240000</nanos>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>5</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.903720Z</date>
+  <millis>1542709886903</millis>
+  <nanos>720000</nanos>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[local buffer = ws2812.newBuffer(256,3)]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.907601Z</date>
+  <millis>1542709886907</millis>
+  <nanos>601000</nanos>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[local buffer = ws2812.newB</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.914746Z</date>
+  <millis>1542709886914</millis>
+  <nanos>746000</nanos>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:uffer(256,3)]==]);</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.925838Z</date>
+  <millis>1542709886925</millis>
+  <nanos>838000</nanos>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>6</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.926440Z</date>
+  <millis>1542709886926</millis>
+  <nanos>440000</nanos>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[buffer:fill(0,0,0)]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.930488Z</date>
+  <millis>1542709886930</millis>
+  <nanos>488000</nanos>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[buffer:fill(0,0,0)]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.936027Z</date>
+  <millis>1542709886936</millis>
+  <nanos>27000</nanos>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.941461Z</date>
+  <millis>1542709886941</millis>
+  <nanos>461000</nanos>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>7</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.942106Z</date>
+  <millis>1542709886942</millis>
+  <nanos>106000</nanos>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[ws2812.write(buffer)]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.946828Z</date>
+  <millis>1542709886946</millis>
+  <nanos>828000</nanos>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[ws2812.write(buffer)]==]);</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.948855Z</date>
+  <millis>1542709886948</millis>
+  <nanos>855000</nanos>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.952470Z</date>
+  <millis>1542709886952</millis>
+  <nanos>470000</nanos>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.957915Z</date>
+  <millis>1542709886957</millis>
+  <nanos>915000</nanos>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>8</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.958361Z</date>
+  <millis>1542709886958</millis>
+  <nanos>361000</nanos>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:w([==[end]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.962969Z</date>
+  <millis>1542709886962</millis>
+  <nanos>969000</nanos>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:w([==[end]==]);&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.968347Z</date>
+  <millis>1542709886968</millis>
+  <nanos>347000</nanos>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.973881Z</date>
+  <millis>1542709886973</millis>
+  <nanos>881000</nanos>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>9</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.974433Z</date>
+  <millis>1542709886974</millis>
+  <nanos>433000</nanos>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:file.close();&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.979054Z</date>
+  <millis>1542709886979</millis>
+  <nanos>54000</nanos>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:file.close();&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.987228Z</date>
+  <millis>1542709886987</millis>
+  <nanos>228000</nanos>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.990055Z</date>
+  <millis>1542709886990</millis>
+  <nanos>55000</nanos>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>10</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.990622Z</date>
+  <millis>1542709886990</millis>
+  <nanos>622000</nanos>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("clear_screen.lua");&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:26.996068Z</date>
+  <millis>1542709886996</millis>
+  <nanos>68000</nanos>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>recv:dofile("clear_screen.lua");&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:27.008484Z</date>
+  <millis>1542709887008</millis>
+  <nanos>484000</nanos>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Operation done. Duration = 298 ms</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:29.459391Z</date>
+  <millis>1542709889459</millis>
+  <nanos>391000</nanos>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:31:45.419422Z</date>
+  <millis>1542709905419</millis>
+  <nanos>422000</nanos>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:34:59.926549Z</date>
+  <millis>1542710099926</millis>
+  <nanos>549000</nanos>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('strip.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-20T10:46:17.434107Z</date>
+  <millis>1542710777434</millis>
+  <nanos>107000</nanos>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile('clear_screen.lua')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:04.909108Z</date>
+  <millis>1542807724909</millis>
+  <nanos>108000</nanos>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.393728Z</date>
+  <millis>1542807726393</millis>
+  <nanos>728000</nanos>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file clear_screen.lua</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.395309Z</date>
+  <millis>1542807726395</millis>
+  <nanos>309000</nanos>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file clear_screen.lua ...</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.396272Z</date>
+  <millis>1542807726396</millis>
+  <nanos>272000</nanos>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file clear_screen.lua: Success.</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.488734Z</date>
+  <millis>1542807726488</millis>
+  <nanos>734000</nanos>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.489148Z</date>
+  <millis>1542807726489</millis>
+  <nanos>148000</nanos>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.516183Z</date>
+  <millis>1542807726516</millis>
+  <nanos>183000</nanos>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2018-11-21T13:42:06.516737Z</date>
+  <millis>1542807726516</millis>
+  <nanos>737000</nanos>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File close: Success.</message>
+</record>
+</log>

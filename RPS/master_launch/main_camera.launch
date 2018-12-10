@@ -9,7 +9,7 @@
     <!--<node pkg="tf2_ros" type="static_transform_publisher" name="main_camera_frame" args="0.05 0 0.07 -1.5707963 0 0 fcu main_camera_optical"/>-->
 	
     <node pkg="topic_tools" name="cam_throttle" type="throttle"
-    args="messages main_camera/image_raw 10.0 main_camera/image_raw/throttled"/>
+    args="messages main_camera/image_raw 20.0 main_camera/throttled"/>
 
     <!-- camera node -->
     <node pkg="nodelet" type="nodelet" name="main_camera" args="load cv_camera/CvCameraNodelet nodelet_manager" clear_params="true">
